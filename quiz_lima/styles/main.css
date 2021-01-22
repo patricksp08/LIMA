@@ -1,0 +1,112 @@
+html, body{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://vignette.wikia.nocookie.net/leagueoflegends/images/7/73/Summoners_Rift_landscape_02.jpg/revision/latest/scale-to-width-down/2000?cb=20170303044632);
+}
+main{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    width: 60%;
+    height: 60%;
+    background-color: rgb(108, 103, 112);
+    box-shadow: rgb(66, 55, 71) 20px 20px 20px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.iniciar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#quadrado{
+    /* flex-direction: column; */
+    display: flex;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    width: 61%;
+    height: 350%;
+    background-color: rgb(108, 103, 112);
+    box-shadow: rgb(66, 55, 71) 20px 20px 20px;
+    margin-top: 120%;
+}
+.botao{
+    align-items: center;
+    width: 10%;
+    height: 2%;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    height: 200px;
+}
+.img2{
+    width: 250px;
+}
+.img3{
+    width: 250px;
+}
+.img4{
+    width: 290px;
+}
+.img5{
+    width: 290px;
+}
+.img6{
+    width: 150px;
+}
+.img7{
+    width: 250px;
+    height: 200px;
+}
+.img8{
+    width: 250px;
+}
+.img9{
+    width: 230px;
+}
+.img10{
+    width: 300px;
+}
+
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #000000;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: black
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(3, 8, 10, 0.5);
+    transform: translate(-0.1rem);
+    transition: transform 150ms;
+}
